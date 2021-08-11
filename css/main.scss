@@ -1,0 +1,22 @@
+$color-primary:#f7f4f2;
+$color-btnbg:#fff;
+$color-title:#3b3b3b;
+$color-text:#9c9c9c;
+$color-border:#d3d3d3;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+   background-color: #3b3b3b;
+  
+
+   &__logo{
+       height: 20px;
+       width: 20px;
+   }
+}
