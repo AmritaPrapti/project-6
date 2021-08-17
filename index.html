@@ -5,33 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/themes/splide-default.min.css">
     <link href="//db.onlinewebfonts.com/c/0c0e8dd7f4d110cc9876f6c02884d713?family=GT+Alpina" rel="stylesheet" type="text/css"/>
     <title>Document</title>
 </head>
 <body>
 
-    <header class="header">
-        <div class="header__wrap">
+    <header class="header container">
+        
                 <a href=""> <img class="header__logo" src="./image/logo.svg" alt=""></a>
 
-                <div class="header__right">
-                    <a href=""><img class="header__cart" src="./image/cart.svg" alt=""></a>
-                    <a href=""><img class="header__menu" src="./image/menu.svg" alt=""></a>
-                </div>
+                
 
-               <div class="header__sidebar ">
-                   <ul class="header__sidebar--list">
-                       <li class="header__sidebar--item"><a href="">home</a> </li>
-                       <li class="header__sidebar--item"><a href="">About</a> </li>
-                       <li class="header__sidebar--item"><a href="">shop</a> </li>
-                       <li class="header__sidebar--item"><a href="">subscription</a> </li>
-                       <li class="header__sidebar--item"><a href="">contact</a> </li>
-                       <li class="header__sidebar--item"><a href="">wedding</a> </li>
-                       <li class="header__sidebar--item"><a href="">event</a> </li>
+               
+                   <ul class="header__sidebar">
+                       <li class="header__sidebar--xlist"><a href="#" class="header__sidebar--xlink"><img src="./image/x-mark.png" alt="" class="header__sidebar--ximg"></a></li>
+                       <li class="header__sidebar--item"><a href="#" class="header__sidebar--link">home</a> </li>
+                       <li class="header__sidebar--item"><a href="#" class="header__sidebar--link"></a>About</a> </li>
+                       <li class="header__sidebar--item"><a href="#" class="header__sidebar--link"></a>shop</a> </li>
+                       <li class="header__sidebar--item"><a href="#" class="header__sidebar--link"></a>subscription</a> </li>
+                       <li class="header__sidebar--item"><a href="#" class="header__sidebar--link"></a>contact</a> </li>
+                       <li class="header__sidebar--item"><a href="#" class="header__sidebar--link"></a>wedding</a> </li>
+                       <li class="header__sidebar--item"><a href="#" class="header__sidebar--link"></a>event</a> </li>
                    </ul>
+               
+
+
+               <div class="header__right">
+                <a href="#"><img class="header__cart" src="./image/cart.svg" alt=""></a>
+                <a href="#" class="header__nav"><img class="header__menu" src="./image/menu.svg" alt=""></a>
                </div>
                
-        </div>       
+             
     </header>
 
 
@@ -40,7 +45,7 @@
 
             <h2 class="title title--primary">LUCY VAIL</h2>
             <h3 class="title title--hero-sub">FLORISTRY</h3>
-            <a href=""><img class="hero__scrol" src="./image/scroll.svg" alt=""></a>
+            <a href=""><img class="hero__scroll" src="./image/scroll.svg" alt=""></a>
 
         </div>
     </section>
@@ -55,8 +60,144 @@
     </section>
 
 
+    <section class="about container">
+        <div class="about__col-1">
+            <div class="card card--primary">
+                <img class="card__img card__img--primary" src="./image/home-5_720x.jpg" alt="">
+                <div class="card__text">
+                    <h1 class="title title--card">SUBSCRIPTIONS</h1>
+                    <p class="text text--primary">Our subscriptions are the best way to bring a slice of the British countryside to your doorstep.</p>
+                    <a href=""><button class="btn btn--secondary">SUBSCRIBE NOW</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="about__col-2">
+            <div class="card card--primary">
+                <img class="card__img card__img--primary" src="./image/CRI-0104_953736be-6205-4690-b7a0-d5f1d490d8e1_720x.jpg" alt="">
+                <div class="card__text">
+                    <h1 class="title title--card">SEASONAL BOUQUETS</h1>
+                    <p class="text text--primary">We work directly with our family farm and know wholeheartedly that what arrives on your doorstep is the freshest, seasonal flowers that are produced up and down the country and further afield.</p>
+                    <a href=""><button class="btn btn--secondary">SHOP NOW</button></a>
+                </div>
+            </div>
+        </div>
 
-    <script src="./app.js"></script>
+
+    </section>
+    <section class="order container">
+        <div class="order__row-1">
+            <div class="card card--secondary">
+                <img class="card__img" src="./image/Bridal-1058_720x.jpg" alt="">
+                <div class="card__text card__text--secondary">
+                    <h1 class="title title--card">WEDDINGS MADE TO ORDER</h1>
+                    <p class="text text--primary">We are very excited to announce our Made to Order weddings. Using seasonal flowers straight from our flower farm, we will create beautiful arrangements for your perfect wedding.</p>
+                    <a href=""><button class="btn btn--secondary">Weddings Made to order</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="order__row-2">
+            <div class="card card--tertiary">
+                <div class="card__text card__text--secondary">
+                    <h1 class="title title--card">BOOK A CONSULTATION</h1>
+                    <p class="text text--primary">Have you just got engaged and want flowers designed completely bespoke to you, flowers for an event or a special bouquet or workshop? We would loved to meet you and create something totally spectacular.</p>
+                    <a href=""><button class="btn btn--secondary">ENQUIRE NOW</button></a>
+                </div>
+                <img class="card__img" src="./image/Stocksy_comp_1068904_Copy_2_720x.jpg" alt="">
+               
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="sponsor container">
+        
+        <p class="title title--sponsor">AS SEEN ON</p>
+        <div class="sponsor__gallery">
+            <img class="sponsor__gallery--img" src="./image/1.png" alt=""><img class="sponsor__gallery--img" src="./image/2.png" alt="">
+            <img class="sponsor__gallery--img" src="./image/3.png" alt=""><img class="sponsor__gallery--img" src="./image/4.png" alt="">
+            <img class="sponsor__gallery--img" src="./image/5.png" alt=""><img class="sponsor__gallery--img" src="./image/6.png" alt="">
+            <img class="sponsor__gallery--img" src="./image/7.png" alt=""><img class="sponsor__gallery--img" src="./image/8.png" alt="">
+            <img class="sponsor__gallery--img" src="./image/9.png" alt=""><img class="sponsor__gallery--img" src="./image/10.png" alt="">            
+
+        </div>
+      
+
+    </section>
+
+    <section class="slide container">
+        <div class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <p class="text text--slide">Great experience, I'd consider myself a preety disorganised customer. But Lucy pointed me in the right direction, and made it super easy to purchase a lovely bunch of flowers. Has been all round preety great experience so massive👍 and an extra ⭐⭐⭐⭐⭐ for good measure.</p>
+                        <p class="text text--slide-sub">Harry Blakiston Houston</p></li>
+                    <li class="splide__slide">
+                        <p class="text text--slide">
+                            When hosting a luxury event in store on Savile Row there was only one florist I wanted to use - Lucy - after incredible referrals from friends using her for their weddings. We worked with her signature style and added bits from my colour palette - pale pinks and white mainly. She was so organised, efficient and transformed the space to make it look a million dollars, I received so many compliments. Totally worth every last penny. Would definitely recommend!!
+                        </p>
+                        <p class="text text--slide-sub">
+                            Phoebe Gormley
+                        </p>
+                    </li>
+                    <li class="splide__slide">
+                        <p class="text text--slide">
+                            Working with Lucy whilst launching our first hospitality venue, The Hawk's Nest has been an absolute delight. Always brimming&nbsp;with brilliant ideas and passionate energy, on our first meeting Lucy came up with the idea for a totally bespoke nest style entranceway installation which immediately&nbsp;grabs visitors and passersby's attention. She has seasonally relaunched our entrance and designed and executed a winter woodland garden concept throughout the space which resulted in us being featuring as one of TimeOut London's top winter terraces for drinking and dining.
+                        </p>
+                        <p class="text text--slide-sub">
+                            Frazer Timmerman
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <section class="footer container">
+        <div class="footer__wrapper">
+        <div class="footer__col-1"> <a href=""><img class="footer__logo" src="./image/footer logo.svg" alt=""></a></div>
+        <div class="footer__col-2">
+            <h4>CONTACT DETAILS</h4>
+            <p class="text--footer">Unit C16, The Imperial Laundry, 87 Warriner Gardens, London, SW11 4XW</p>
+        </div>
+        <div class="footer__col-3">
+            <a class="text--link" href="#">info@lucyvailfloristry.co.uk</a>
+            <p class="text--footer">0203 325 4376</p>
+        </div>
+        <div class="footer__col-4">
+            <h4>FOLLOW US</h4>
+            <a class="text--link" href="#">Instagram</a>
+            <a class="text--link" href="#">Facebook</a>
+        </div>
+        <div class="footer__col-5">
+            <h4>SUBSCRIBE</h4>
+            <form class="footer__form" action="">
+                <input class="footer__form--input text--link"  type="email" value="email@example.com">
+                <button class="footer__form--btn"><img src="./image/email btn.svg" alt=""></button>
+            </form>
+        </div>
+    </div>
+
+    </section>
+
+    <section class="copyright">
+        
+        <p class="text--link"> © 2021, Lucy Vail Floristry</p>
+
+    </section>
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+    <script>
+            new Splide( '.splide', {
+            type  : 'fade',
+            rewind: true,
+        } ).mount();
+    </script>
     
 </body>
 </html>
